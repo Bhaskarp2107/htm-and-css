@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bracelets Buying</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.bracelets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bracelet {
+    width: 300px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.bracelet img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+button {
+    background-color: #bd8ec6;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #696464;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bracelets Shop</h1>
+    </header>
+    
+    <main>
+        <section class="bracelets">
+            <div class="bracelet">
+                <img src="bracelet1.jpg" alt="Bracelet 1">
+                <h2>Bracelet 1</h2>
+                <p>$20</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="bracelet">
+                <img src="bracelet2.jpg" alt="Bracelet 2">
+                <h2>Bracelet 2</h2>
+                <p>$25</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more bracelets here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Bracelets Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
